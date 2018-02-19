@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>ONLINE MAIL SERVICES</title>
+<style type="text/css">
+table{
+margin-left:30%;
+margin-top:10%;
+}
+</style>
+</head>
+<body bgcolor="darkred">
+	<form action="mailattach" method="post">
+	<center><h1>MAIL-To-MAIL!</h1></center>
+		<table id="table" cellspacing="12">
+			<tr>
+				<td>TO:</td>
+				<td><input type="text" name="to"></td>
+			</tr>
+			<tr>
+				<td>CC:</td>
+				<td><input type="text" name="cc"></td>
+			</tr>
+			<tr>
+				<td>BCC:</td>
+				<td><input type="text" name="bcc"></td>
+			</tr>
+			<tr>
+				<td>SUBJECT:</td>
+				<td><input type="text" name="subject"></td>
+			</tr>
+			<tr>
+			<td>ATTACH FILES:</td>
+			<td><input type="file" name="attachment"></td>
+			</tr>
+			<tr>
+				<td>MESSAGE:</td>
+				<td><textarea name="messag" rows=10 cols=40></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="SEND"></td>
+				<td><input type="reset" value="DISCARD"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
